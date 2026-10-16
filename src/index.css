@@ -367,18 +367,17 @@ section {
 .gradient-line {
     width: 3px;
     background: linear-gradient(
-        0deg,
-        rgba(36, 150, 237, 0) 0%,       /* Transparent Docker fade-in */
-        #009639 25%,                    /* Nginx Green */
-        #2496ed 25%,                    /* Docker Blue */
-        #326ce5 50%,                    /* Kubernetes Blue */
-        rgba(0, 150, 57, 0) 100%        /* Transparent Nginx fade-out */
+        180deg,
+        rgba(36, 150, 237, 0) 0%,      /* Fade-in Top */
+        #2496ed 15%,                   /* Docker Blue */
+        #326ce5 50%,                   /* Kubernetes Deep Blue */
+        #009639 85%,                   /* Nginx Green */
+        rgba(0, 150, 57, 0) 100%       /* Fade-out Bottom */
     );
 }
 
 .gradient-edge:nth-of-type(1) {
     left: 0;
-    background: rgb(0, 0, 0);
     background: linear-gradient(
         90deg,
         rgba(0, 0, 0, 1) 0%,
